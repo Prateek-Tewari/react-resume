@@ -1,4 +1,9 @@
 import React from "react";
+import WorkExperience from "./WorkExperience.jsx";
+import Projects from "./Projects.jsx";
+import Skills from "./Skills.jsx";
+import Interests from "./Interests.jsx";
+import Education from "./Education.jsx";
 
 class ResumeForm extends React.Component {
   render() {
@@ -41,6 +46,11 @@ class ResumeForm extends React.Component {
           <label for="linkedin">Linkedin:</label>
           <input type="text" id="linkedin" />
           <br />
+          <WorkExperience />
+          <Projects />
+          <Skills />
+          <Interests />
+          <Education />
         </form>
       </div>
     );
